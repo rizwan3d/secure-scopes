@@ -18,11 +18,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Barryvdh\\Debugbar\\ServiceProvider"
-            ],
-            "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
-            }
+                "Rizwan3d\\SecureScopes\\ServiceProviders\\UserScopeServiceProvider"
+            ]
         }
     }
 }
