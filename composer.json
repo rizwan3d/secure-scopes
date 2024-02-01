@@ -1,0 +1,28 @@
+{
+    "name": "rizwan3d/secure-scopes",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/darkghosthunter/laratraits",
+    "autoload": {
+        "psr-4": {
+            "Rizwan3d\\SecureScopes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rizwan3d",
+            "email": "allgame45@hotmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Barryvdh\\Debugbar\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    }
+}
